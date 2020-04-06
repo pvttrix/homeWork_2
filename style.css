@@ -1,0 +1,157 @@
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	min-width:1120px;
+	line-height: 1.2;
+}
+ol { 
+	padding-left: 1.4em;
+	list-style: decimal;
+}
+ul {
+	padding-left: 1.4em;
+	list-style: square;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} 
+
+* {
+    margin: 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+
+.content {
+    min-height: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:brown;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    height: 100%;
+}
+
+header {
+    margin: 0 auto;
+    width:100%;
+    text-align: center;
+}
+
+header hr {
+    margin:10px auto;
+}
+
+.grid{
+    background-color: black;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 0.5em;
+    margin-left:10px;
+}
+
+.grid figure {
+    justify-self: center;
+}
+
+.grid img {
+    margin: 20px auto;
+    width:100%;
+}
+
+.grid figcaption{
+    text-align: center;
+    color:white;
+    margin-bottom: 4px;
+}
+
+.sidebar1 {
+    width:20%;
+    float: left;
+    background-color: maroon;
+    margin-top:3px;
+    letter-spacing: 1px;
+    min-height: 350px;
+}
+
+.sidebar1 ul {
+    list-style: none;
+}
+
+.sidebar1 li {
+    color:orangered;
+    text-decoration:underline;
+    margin:10px;  
+}
+.main {
+    width: 68%;
+    float:left;
+    margin:10px;
+    padding-bottom: 100px;
+    color:white;
+}
+
+.main p {
+    margin:20px 0;
+    letter-spacing: 1px;
+}
+
+.sidebar2 {
+    width: 10%;
+    float:right;
+    margin-top:3px;
+    background-color:white;
+}
+
+.sidebar2 ul {
+    padding-left:0;
+    margin-left:0;
+    text-align:center;
+}
+ .sidebar2 ul li + li:after{
+     content:"";
+     border:1px solid grey ; 
+     width:50%;
+     display:block;
+     margin: 40px auto;
+}
+
+.sidebar2 li {
+   list-style-type: none;
+   margin-bottom: 25px;
+}
+
+#head {
+    background-color: grey;
+    font-weight: bold;
+}
+
+footer {
+    clear: both;
+    background-color:orangered;;
+    margin-top: -100px;
+    height: 20px;
+    text-align: center;
+    padding-top:2px;
+    margin-left:10px;
+    margin-bottom: 40px;
+    color:white;
+}
+
+
+
+
